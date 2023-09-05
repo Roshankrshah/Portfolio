@@ -69,3 +69,67 @@ section{
     }
 }
 
+.btn{
+    color: #fff;
+    background: #3a6cf4;
+    font-size: 1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+}
+
+.btn:hover{
+    background: #235bf6;
+}
+
+.media-icons a{
+    /*color: #fff;*/
+    font-size: 25px;
+    margin-right: 30px;
+}
+
+header{
+    z-index: 999;
+    position: fixed;
+    background: rgba(255, 255, 255, 0,1);
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s ease;
+}
+
+header .brand{
+    /*color: #fff;*/
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .navigation{
+    position: relative;
+}
+
+header .navigation a{
+    /*color: #fff;*/
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+header .navigation a:hover{
+    color: #3a6cf4;
+}
+
+body{
+    min-height: 110vh;
+}
