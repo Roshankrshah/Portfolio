@@ -46,3 +46,17 @@ function reveal() {
         }
     }
 }
+
+
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2000,
+    delay: 200,
+    //     reset: true
+});
+
+sr.reveal('.content', {});
+sr.reveal('.home__img', { delay: 400 });
+sr.reveal('.media-icons', { interval: 200 });
+sr.reveal('.input-box', { interval: 200 }); 
