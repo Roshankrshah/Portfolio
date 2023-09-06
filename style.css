@@ -28,6 +28,8 @@ section {
 
 .main .content h2 {
     color: #fff;
+    font-size: 2em;
+    font-weight: 500;
 }
 
 .main .content h2 span {
@@ -83,6 +85,7 @@ section {
     font-weight: 600;
     display: inline-block;
     padding: 10px 20px;
+    margin-top: 30px;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
@@ -543,5 +546,51 @@ body {
         background-position: center;
         transition: 0.3s ease;
         filter: invert(1);
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .main .content h2 {
+        font-size: 1em;
+    }
+    
+    .animated-text h3 {
+        font-size: 2.2em;
+    }
+
+    .section-title {
+        font-size: 1.8em;
+    }
+
+    .about .content {
+        flex-direction: column;
+    }
+
+    .about .content .column{
+        position: relative;
+        width: 100%;
+    }
+
+    .about .content .col-right {
+        margin-top: 40px;
+    }
+
+    .skills .content {
+        flex-direction: column;
+    }
+
+    .skills .content .column{
+        position: relative;
+        width: 100%;
+    }
+
+    .skills .content .col-right {
+        margin-top: 40px;
+    }
+
+    .contact-form {
+        padding: 35px 40px;
     }
 }
