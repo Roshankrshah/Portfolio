@@ -492,6 +492,37 @@ body {
     header .navigation {
         display: none;
     }
+
+    header .navigation.active{
+        z-index: 888;
+        position: fixed;
+        background: #fff;
+        top: 0;
+        right: 0;
+        width: 380px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+        transition: 0.3s ease;
+    }
+
+    header .navigation a {
+        color: #000;
+        font-size: 1.2em;
+        margin: 10px;
+        padding: 0 20px;
+        border-radius: 20px;
+    }
+
+    header .navigation a:hover{
+        background: #3a6cf4;
+        color: #fff;
+        transition: 0.3s ease;
+    }
+
     .menu-btn{
         position: absolute;
         background: url(images/menu.png)no-repeat;
@@ -511,5 +542,6 @@ body {
         background-size: 25px;
         background-position: center;
         transition: 0.3s ease;
+        filter: invert(1);
     }
 }
