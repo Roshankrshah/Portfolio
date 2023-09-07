@@ -45,7 +45,8 @@ section {
 }
 
 .animated-text h3 {
-    color: #4e9eff;
+    /*color: #4e9eff;*/
+    color: aquamarine;
     font-size: 3em;
     font-weight: 700;
     line-height: 70px;
@@ -53,10 +54,10 @@ section {
 }
 
 .animated-text h3:nth-child(1) {
-    animation: text-move 10s infinite;
+    animation: text-move 15s infinite;
 }
 
-@keyframes text-move {
+/*@keyframes text-move {
     0% {
         margin-top: 0;
     }
@@ -76,11 +77,42 @@ section {
     100% {
         margin-top: 0;
     }
+}*/
+
+@keyframes text-move {
+    0% {
+        margin-top: 0;
+    }
+
+    16.5% {
+        margin-top: -70px;
+    }
+
+    33% {
+        margin-top: -140px;
+    }
+
+    49.5% {
+        margin-top: -210px;
+    }
+
+    66% {
+        margin-top: -140px;
+    }
+
+    82.5%{
+        margin-top: -70px;
+    }
+    
+    100%{
+        margin-top: 0px;
+    }
 }
 
 .btn {
     color: #fff;
-    background: #3a6cf4;
+    /*background: #3a6cf4;*/
+    background: #1abc9c;
     font-size: 1em;
     font-weight: 600;
     display: inline-block;
@@ -93,7 +125,8 @@ section {
 }
 
 .btn:hover {
-    background: #235bf6;
+    /*background: #235bf6;*/
+    background: #10cda7;
 }
 
 .media-icons a {
@@ -117,7 +150,8 @@ header {
 }
 
 header.sticky {
-    background: #3a6cf4;
+   /*background: #3a6cf4;*/
+    background: #1abc9c;
     padding: 10px 200px;
 }
 
@@ -142,7 +176,8 @@ header .navigation a {
 }
 
 header .navigation a:hover {
-    color: #3a6cf4;
+    /*color: #3a6cf4;*/
+    color: #1abc9c;
 }
 
 header.sticky .navigation a:hover {
@@ -163,7 +198,8 @@ body {
 
 .section-title {
     position: relative;
-    color: #3a6cf4;
+    /*color: #3a6cf4;*/
+    color: #1abc9c;
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 60px;
@@ -176,7 +212,8 @@ body {
     left: 50%;
     width: 140px;
     height: 4px;
-    background: #3a6cf4;
+    /*background: #3a6cf4;*/
+    background: #1abc9c;
     transform: translate(-50%);
 }
 
@@ -188,7 +225,8 @@ body {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background: #3a6cf4;
+    /*background: #3a6cf4;*/
+    background: #1abc9c;
     transform: translate(-50%);
 }
 
@@ -381,7 +419,8 @@ body {
 }
 
 .contact .content .row .card .contact-icon {
-    color: #3a6cf4;
+    /*color: #3a6cf4;*/
+    color: #1abc9c;
     font-size: 4em;
     text-align: center;
     transition: transform 0.5s ease;
@@ -445,7 +484,8 @@ body {
 
 .contact-form .input-box .send-btn {
     color: #fff;
-    background: #3a6cf4;
+    /*background: #3a6cf4;*/
+    background: #1abc9c;
     display: inline-block;
     font-size: 1.1em;
     font-weight: 500;
@@ -458,7 +498,8 @@ body {
 }
 
 .contact-form .input-box .send-btn:hover {
-    background: #235bf6;
+    /*background: #235bf6;*/
+    background: #15d4ae;
 }
 
 .footer {
@@ -479,7 +520,8 @@ body {
 }
 
 .footer p a {
-    color: #3a6cf4;
+    /*color: #3a6cf4;*/
+    color:#1abc9c;
     font-weight: 600;
     text-decoration: none;
 }
@@ -521,7 +563,8 @@ body {
     }
 
     header .navigation a:hover{
-        background: #3a6cf4;
+        /*background: #3a6cf4;*/
+        background: #1abc9c;
         color: #fff;
         transition: 0.3s ease;
     }
@@ -598,7 +641,8 @@ body {
 .scrollToTop-btn{
     z-index: 999;
     position: fixed;
-    background: #3a6cf4;
+    /*background: #3a6cf4;*/
+    background: #1abc9c;
     color: #fff;
     width: 45px;
     height: 45px;
