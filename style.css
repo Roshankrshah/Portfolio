@@ -387,7 +387,9 @@ body {
     width: 100%;
     height: 260px;
     overflow: hidden;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .work .content .card .card-img img {
@@ -397,12 +399,12 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     transition: 0.5s ease;
 }
 
-.work .content .card .card-img img:hover {
-    transform: scale(1.2);
+.work .content .card .card-img:hover {
+    transform: scale(1.1);
 }
 
 .contact .content {
@@ -413,7 +415,7 @@ body {
     margin-top: 20px;
 }
 
-.contact .content .row {
+.contact.content.row {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
