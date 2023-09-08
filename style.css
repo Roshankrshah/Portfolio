@@ -336,18 +336,33 @@ body {
 }
 
 .skills .content .col-right .bar .html::before {
-    width: 95%;
-    background: #e45126;
+    width: 87%;
+    background: #ff6ac1;
 }
 
-.skills .content .col-right .bar .css::before {
+.skills .content .col-right .bar .js::before {
     width: 90%;
-    background: #0c73b8;
+    background: #00d4ff;
 }
 
-.skills .content .col-right .bar .javascript::before {
-    width: 95%;
-    background: #e3a324;
+.skills .content .col-right .bar .java::before {
+    width: 80%;
+    background: #32ee11;
+}
+
+.skills .content .col-right .bar .c::before {
+    width: 90%;
+    background: #f4ff00;
+}
+
+.skills .content .col-right .bar .python::before {
+    width: 90%;
+    background: #ff9900;
+}
+
+.skills .content .col-right .bar .node::before {
+    width: 86%;
+    background: #d300e7;
 }
 
 .work {
