@@ -276,6 +276,7 @@ body {
 
 .about .content .col-right .paragraph-text {
     font-size: 1em;
+    text-align: justify;
 }
 
 .skills {
@@ -299,6 +300,7 @@ body {
 .skills .content .col-right {
     position: relative;
     width: 46%;
+    text-align: justify;
 }
 
 .skills .content .col-right .bar {
@@ -415,7 +417,7 @@ body {
     margin-top: 20px;
 }
 
-.contact.content.row {
+.contact .content .row {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -652,6 +654,26 @@ body {
 
     .contact-form {
         padding: 35px 40px;
+    }
+}
+
+@media (max-width:850px) {
+    .sde-img{
+        width: 320px;
+        height: 280px;
+    }
+}
+
+@media (max-width:750px) {
+    .sde-img{
+        width: 240px;
+        height: 210px;
+    }
+}
+
+@media (max-width:700px) {
+    .sde-img{
+        display: none;
     }
 }
 
