@@ -57,6 +57,7 @@ const sr = ScrollReveal({
 });
 
 sr.reveal('.content', {});
-sr.reveal('.home__img', { delay: 400 });
+sr.reveal('.sde-img', {interval: 200});
+//sr.reveal('.home__img', { delay: 400 });
 sr.reveal('.media-icons', { interval: 200 });
 sr.reveal('.input-box', { interval: 200 }); 

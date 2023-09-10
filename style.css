@@ -38,13 +38,13 @@ section {
 }
 
 
-.animated-text {
+.animated-text-bs {
     position: relative;
     height: 70px;
     overflow: hidden;
 }
 
-.animated-text h3 {
+.animated-text-bs h3 {
     /*color: #4e9eff;*/
     color: aquamarine;
     font-size: 3em;
@@ -53,7 +53,7 @@ section {
     letter-spacing: 1px;
 }
 
-.animated-text h3:nth-child(1) {
+.animated-text-bs h3:nth-child(1) {
     animation: text-move 15s infinite;
 }
 
@@ -664,10 +664,32 @@ body {
     }
 }
 
+@media (max-width:1350px){
+    .animated-text-bs h3 {
+        font-size: 2.4em;
+    }
+}
+
+@media (max-width:1250px){
+    .animated-text-bs h3 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width:1200px){
+    .animated-text-bs h3 {
+        font-size: 1.7em;
+    }
+}
+
 @media (max-width:1000px) {
     .about .content .col-left .img-card img {
         width: 50%;
         margin-left: 190px;
+    }
+
+    .animated-text-bs h3 {
+        font-size: 2em;
     }
 }
 
@@ -710,6 +732,10 @@ body {
         width: 60%;
         margin-left: 100px;
     }
+
+    .animated-text-bs h3 {
+        font-size: 2.5em;
+    }
 }
 
 @media (max-width:600px) {
@@ -730,6 +756,16 @@ body {
     .about .content .col-left .img-card img {
         width: 90%;
         margin-left: 15px;
+    }
+
+    .animated-text-bs h3 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width:450px) {
+    .animated-text-bs h3 {
+        font-size: 1.5em;
     }
 }
 
