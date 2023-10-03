@@ -796,6 +796,44 @@ body {
     }
 }
 
+.scrollToTop-btn {
+    z-index: 999;
+    position: fixed;
+    /*background: #3a6cf4;*/
+    background: #1abc9c;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    right: 0;
+    bottom: 10px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 3px;
+    cursor: pointer;
+    pointer-events: none;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.scrollToTop-btn.active {
+    right: 20px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 1.5s ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
 @media (min-width: 2200px) {
     .main .content {
         max-width: 1300px;
@@ -995,42 +1033,25 @@ body {
     .contact-form .input-box .send-btn {
         font-size: 2.5em;
     }
-}
 
-.scrollToTop-btn {
-    z-index: 999;
-    position: fixed;
-    /*background: #3a6cf4;*/
-    background: #1abc9c;
-    color: #fff;
-    width: 45px;
-    height: 45px;
-    right: 0;
-    bottom: 10px;
-    font-size: 22px;
-    text-align: center;
-    line-height: 45px;
-    border-radius: 3px;
-    cursor: pointer;
-    pointer-events: none;
-    opacity: 0;
-    transition: all 0.3s ease;
-}
+    .footer {
+        padding: 3em;
+    }
+    
+    .footer .footer-title {
+        font-size: 35px;
+    }
+    
+    .footer p {
+        font-size: 25px;
+    }
 
-.scrollToTop-btn.active {
-    right: 20px;
-    opacity: 1;
-    pointer-events: auto;
-}
-
-.reveal {
-    position: relative;
-    transform: translateY(50px);
-    opacity: 0;
-    transition: all 1.5s ease;
-}
-
-.reveal.active {
-    transform: translateY(0);
-    opacity: 1;
+    .scrollToTop-btn {
+        width: 75px;
+        height: 75px;
+        right: 0;
+        bottom: 10px;
+        font-size: 40px;
+        line-height: 75px;
+    }
 }
