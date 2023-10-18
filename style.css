@@ -837,15 +837,15 @@ body {
 @media (min-width: 2200px) {
 
     section {
-        padding: 200px 300px;
+        padding: 200px 250px;
     }
 
     header {
-        padding: 25px 300px;
+        padding: 25px 250px;
     }
 
     header.sticky {
-        padding: 25px 300px;
+        padding: 25px 250px;
     }
 
     .main .content {
@@ -898,6 +898,7 @@ body {
     .btn {
         font-size: 2.5em;
         margin-right: 10px;
+        padding: 25px;
     }
 
     .media-icons {
@@ -913,7 +914,7 @@ body {
     }
 
     header .navigation a {
-        font-size: 2em;
+        font-size: 2.5em;
         margin-left: 30px;
     }
 
@@ -1014,12 +1015,12 @@ body {
     }
     
     .contact .content .row .card .info h3 {
-        font-size: 2.7em;
+        font-size: 3em;
         margin: 15px;
     }
 
     .contact .content .row .card .info span {
-        font-size: 25px;
+        font-size: 35px;
     }
     
     .contact-form {
