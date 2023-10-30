@@ -389,6 +389,11 @@ body {
 .work .content .card {
     width: 340px;
     margin: 15px;
+    transition: all 0.5s ease;
+}
+
+.work .content .card:hover {
+    transform: scale(1.05);
 }
 
 .work .content .card .card-img {
@@ -415,11 +420,29 @@ body {
     height: 100%;
     object-fit: cover;
     border-radius: 10px;*/
-    transition: all 0.5s ease;
 }
 
-.work .content .card .card-img:hover {
-    transform: scale(1.1);
+.work .content .card .project-footer{
+    background-color: white;
+}
+
+.project-footer {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    padding: 5px;
+}
+
+.icons {
+    letter-spacing: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.project-link {
+    font-size: 30px;
+    margin: 5px;
+    color: black;
 }
 
 .contact .content {
