@@ -405,7 +405,6 @@ body {
     border: 5px solid #1abc9c;
     cursor: pointer;
     transition: all 0.3s ease;*/
-    background-color: #1abc9c;
     padding: 20px;
 }
 
@@ -423,7 +422,7 @@ body {
 }
 
 .work .content .card .project-footer{
-    background-color: white;
+    background-color: #202020;
 }
 
 .project-footer {
@@ -431,6 +430,9 @@ body {
     justify-content: space-between;
     height: 90px;
     padding: 5px;
+    color: aquamarine;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .icons {
@@ -442,8 +444,14 @@ body {
 .project-link {
     font-size: 30px;
     margin: 5px;
-    color: black;
+    color: aquamarine;
 }
+
+.disabled {
+    cursor: not-allowed;
+    color: rgb(217, 251, 240);
+}
+
 
 .contact .content {
     display: flex;
