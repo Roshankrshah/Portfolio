@@ -295,6 +295,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    text-align: justify;
     color: #fff;
     margin-top: 20px;
 }
@@ -421,7 +422,7 @@ body {
     border-radius: 10px;*/
 }
 
-.work .content .card .project-footer{
+.work .content .card .project-footer {
     background-color: #202020;
 }
 
@@ -978,16 +979,16 @@ body {
     .about .content .col-left {
         width: 40%;
     }
-    
+
     .about .content .col-left .img-card {
         width: 100%;
         min-height: 1100px;
     }
-    
+
     .about .content .col-right .content-title {
         font-size: 4em;
     }
-    
+
     .about .content .col-right .paragraph-text {
         font-size: 2.2em;
     }
@@ -999,20 +1000,20 @@ body {
     .skills .content .col-left .paragraph-text {
         font-size: 2.4em;
     }
-    
+
     .skills .content .col-right .bar {
         margin-bottom: 25px;
         padding: 20px;
     }
-    
+
     .skills .content .col-right .bar .info {
         margin-bottom: 25px;
     }
-    
+
     .skills .content .col-right .bar .info span {
         font-size: 35px;
     }
-    
+
     .skills .content .col-right .bar .line {
         height: 35px;
     }
@@ -1021,15 +1022,15 @@ body {
         width: 600px;
         margin: 15px;
     }
-    
+
     .work .content .card .card-img {
         padding: 20px;
     }
-    
+
     .work .content .card .card-img img {
         width: 100%;
     }
-    
+
     .work .content .card .card-img:hover {
         transform: scale(1.1);
     }
@@ -1040,11 +1041,11 @@ body {
         padding: 45px;
         box-shadow: 0 20px 40px rgb(1 1 1 / 15%);
     }
-    
+
     .contact .content .row .card .contact-icon {
         font-size: 9em;
     }
-    
+
     .contact .content .row .card .info h3 {
         font-size: 3em;
         margin: 15px;
@@ -1053,28 +1054,28 @@ body {
     .contact .content .row .card .info span {
         font-size: 35px;
     }
-    
+
     .contact-form {
         max-width: 1500px;
         padding: 80px;
         box-shadow: 0 20px 40px rgba(1 1 1 / 15%);
     }
-    
+
     .contact-form h3 {
         font-size: 3em;
     }
-    
+
     .contact-form .input-box {
         margin-bottom: 40px;
     }
-    
+
     .contact-form .input-box input,
     .contact-form .input-box textarea {
         width: 100%;
         padding: 30px;
         font-size: 2em;
     }
-    
+
     .contact-form .input-box .send-btn {
         font-size: 2.5em;
     }
@@ -1082,11 +1083,11 @@ body {
     .footer {
         padding: 3em;
     }
-    
+
     .footer .footer-title {
         font-size: 35px;
     }
-    
+
     .footer p {
         font-size: 25px;
     }
@@ -1104,9 +1105,9 @@ body {
 .popover-container {
     position: relative;
     display: inline-block;
-  }
-  
-  .popover-container::after {
+}
+
+.popover-container::after {
     content: attr(data-popover);
     visibility: hidden;
     background-color: #555;
@@ -1122,10 +1123,27 @@ body {
     margin-left: -60px;
     opacity: 0;
     transition: opacity 0.3s;
-  }
-  
-  .popover-container:hover::after {
+}
+
+.popover-container:hover::after {
     visibility: visible;
     opacity: 1;
-  }
-  
+}
+
+.logo.popover-container::after {
+    left: 50%;
+}
+
+.skill-logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.logo img {
+    transition: transform 0.5s ease;
+}
+
+.logo:hover img {
+    transform: rotate(360deg);
+}
