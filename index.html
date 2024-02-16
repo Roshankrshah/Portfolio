@@ -129,48 +129,6 @@
                     target="_blank">See More</a>
             </div>
             <div class="column col-right reveal">
-                <!-- <div class="bar">
-                    <div class="info">
-                        <span>Nodejs(Express)</span>
-                        <span>86%</span>
-                    </div>
-                    <div class="line node"></div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <span>JavaScript</span>
-                        <span>90%</span>
-                    </div>
-                    <div class="line js"></div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <span>C++</span>
-                        <span>90%</span>
-                    </div>
-                    <div class="line c"></div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <span>HTML</span>
-                        <span>87%</span>
-                    </div>
-                    <div class="line html"></div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <span>Python</span>
-                        <span>90%</span>
-                    </div>
-                    <div class="line python"></div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <span>Java</span>
-                        <span>80%</span>
-                    </div>
-                    <div class="line java"></div>
-                </div> -->
                 <div class="skill-logo-container">
                     <div class="logo popover-container" data-popover="Html">
                         <img src="./images/html.png" alt="Html">
@@ -386,28 +344,29 @@
                 </div>
             </div>
             <div class="row">
-                <div class="contact-form reveal">
+                <form class="contact-form reveal">
                     <h3>Send Message</h3>
                     <div class="input-box">
-                        <input type="text" name="" value="" placeholder="Name">
+                        <input type="text" id="name" placeholder="Name">
                     </div>
                     <div class="input-box">
-                        <input type="email" name="" value="" placeholder="Email">
+                        <input type="email" id="email" placeholder="Email">
                     </div>
                     <div class="input-box">
-                        <textarea name="name" rows="8" cols="80" placeholder="Message"></textarea>
+                        <textarea id="message" rows="8" cols="80" placeholder="Message"></textarea>
                     </div>
                     <div class="input-box">
                         <input type="submit" class="send-btn" value="Send">
                     </div>
-                </div>
+                </form>
+                <div class="toast" id="toast"></div>
             </div>
         </div>
     </section>
 
     <footer class="footer">
         <span class="footer-title">Roshan Kumar Shah</span>
-        <p>Copyright @2023 <a href="#">Roshan</a>. All Rights Reserved.</p>
+        <p>Copyright @2024 <a href="#">Roshan</a>. All Rights Reserved.</p>
     </footer>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="script.js"></script>

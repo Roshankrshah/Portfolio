@@ -31,6 +31,30 @@ scrollBtn.addEventListener('click', () => {
     document.documentElement.scrollTop = 0;
 });
 
+const sendBtn = document.querySelector('.send-btn');
+
+sendBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+    if (name && email && message) {
+        const toast = document.getElementById('toast');
+        toast.style.opacity = 1;
+        toast.textContent = `${name}, I will contact you soon`
+
+        // Hide the toast after 3 seconds (adjust duration as needed)
+        setTimeout(() => {
+            toast.style.opacity = 0;
+        }, 3000);
+    }
+
+    document.getElementById('name').value = '';
+    document.getElementById('email').value = '';
+    document.getElementById('message').value = '';
+})
+
 window.addEventListener('scroll', reveal);
 
 function reveal() {
@@ -57,7 +81,9 @@ const sr = ScrollReveal({
 });
 
 sr.reveal('.content', {});
-sr.reveal('.sde-img', {interval: 200});
+sr.reveal('.sde-img', { interval: 200 });
 //sr.reveal('.home__img', { delay: 400 });
 sr.reveal('.media-icons', { interval: 200 });
-sr.reveal('.input-box', { interval: 200 }); 
+sr.reveal('.input-box', { interval: 200 });
+
+
